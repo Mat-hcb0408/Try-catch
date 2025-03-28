@@ -12,13 +12,13 @@ public class Ativ_10 {
             return 1;
         }
 }
-
+    //exceção personalizada NumeroNegativoException
     public static class NumeroNegativoException extends Exception{
         public NumeroNegativoException(String messageNegative) {
             super(messageNegative);
         }
     }
-
+    //exceção personalizada LimiteFatorialExcedidoException
     public static class LimiteFatorialExcedidoException extends Exception{
         public LimiteFatorialExcedidoException(String messageLimit) {
             super(messageLimit);
